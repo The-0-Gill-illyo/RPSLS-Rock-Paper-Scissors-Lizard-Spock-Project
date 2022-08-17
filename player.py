@@ -12,10 +12,12 @@ class Parent:
 
  gestures = ["Rock ", "Paper","Scissors", "Lizard", "Spock"]
 
-def __init__ (self, player_name):
-     self.player_name = player_name
+def __init__(self, player_name):
+    self.player_name = player_name
+    self.gestures = gestures[]
 
-def __init__(self, gesture):
-    self.gesture
+
+def present_gesture(self, gesture):
+    self.gesture = gesture
 
     
