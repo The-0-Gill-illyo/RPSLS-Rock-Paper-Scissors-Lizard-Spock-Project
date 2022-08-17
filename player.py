@@ -1,10 +1,13 @@
-class Player:
-    gestures = ["Rock ", "Paper","Scissors", "Lizard", "Spock"]
-    def __init__(self):
-        self.choose_number_of_players = input('Choose single player or multiplayer.')
+from xml.dom.expatbuilder import parseString
 
-    def throw_gesture(self, hand_gesture):
-        self.hand_gesture = hand_gesture
+
+class Player:
+    def __init__(self):
+        self.gestures = ["Rock ", "Paper","Scissors", "Lizard", "Spock"]
+
+    def throw_gesture(self, gestures):
+        self.gestures = gestures
+        pass
 
 
     

@@ -1,8 +1,14 @@
 from player import Player
-class Ai:
-    
-    def player_select(self):
-        self.player_choice = self.choose_number_of_players
+import random
+class Ai(Player):
 
-    def  throw_again(self):
-        self.another.throw = randit.random(hand_pattern)
+    def __init__(self):
+        super().__init__()
+        self.gestures
+
+    def throw_gesture(self):
+        self.gesture = random.randint(self.gestures)
+
+ai = Ai()
+gesture_list = ai.gestures
+print(gesture_list)

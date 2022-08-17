@@ -1,8 +1,18 @@
 from player import Player
-class Human:
-    
-    def player_select(self):
-        self.player_choice = self.choose_number_of_players
+class Human(Player):
 
-    def  throw_again(self):
-        self.another.throw = randit.random(hand_pattern)
+    def __init__(self):
+        super().__init__()
+        self.gestures
+
+    def throw_gesture(self):
+        self.user_gestsure = input('Choose one geture: Rock, Paper, Scissors, Lizard, Spock.')
+
+
+user = Human()
+gesture_list = user.gestures
+print(gesture_list)
+
+user_gesture = Human()
+chosen_gesture = user_gesture.throw_gesture # Figure out how to catch user imput in chosen gesture
+print(chosen_gesture)  
