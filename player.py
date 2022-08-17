@@ -1,23 +1,12 @@
 class Player:
+    gestures = ["Rock ", "Paper","Scissors", "Lizard", "Spock"]
+    def __init__(self):
+        self.choose_number_of_players = input('Choose single player or multiplayer.')
+
+    def throw_gesture(self, hand_gesture):
+        self.hand_gesture = hand_gesture
 
 
-#   
-# player name
-# 
-#   Players choose gestures
-# 
-# 5. Make sure gestures can be used
-# 
-# 6. Compare the gestures to see who wins the round
-
- gestures = ["Rock ", "Paper","Scissors", "Lizard", "Spock"]
-
-def __init__(self, player_name):
-    self.player_name = player_name
-    self.gestures = gestures[]
-
-
-def present_gesture(self, gesture):
-    self.gesture = gesture
+    
 
     
