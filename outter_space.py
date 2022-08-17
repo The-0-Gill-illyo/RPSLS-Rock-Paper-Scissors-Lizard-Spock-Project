@@ -1,4 +1,3 @@
-from tracemalloc import start
 from player import Player
 from human import Human
 from ai import Ai
@@ -44,4 +43,3 @@ class OutterSpace:
         user_input = input("Please select opponent: Single player or Multiplayer!")
 
     def game_play(self):
-       
