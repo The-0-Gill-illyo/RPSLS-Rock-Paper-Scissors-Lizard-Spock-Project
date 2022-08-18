@@ -43,7 +43,27 @@ class OutterSpace:
         self.display_winner()
     
     def game_play(self):
+        # LIST OF WHAT BEATS WHAT:
+        # rock -- scissors, lizard
+        # paper -- rock, spock
+        # scissors -- paper, lizard
+        # lizard -- paper, spock
+        # spock -- scissors, rock
+        self.rounds = 0
+        # while self.rounds <= 1:
+        #     self.ai.throw_gesture()
+        #     if self.player_selection() is :
+
+
+            # conditional game jargon
+            # rounds += 1
+            # rounds == 3
         pass
 
     def display_winner(self):
         return Player()
+
+
+
+
+# Theo & Mario made the dream work with the team work

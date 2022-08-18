@@ -11,4 +11,10 @@ class Ai(Player):
 
 ai = Ai()
 gesture_list = ai.gestures
-print(gesture_list)
+# print(gesture_list)
+
+
+
+
+
+# Theo & Mario made the dream work with the team work
