@@ -17,8 +17,8 @@ from ai import Ai
 class OutterSpace:
 
     def __init__(self) -> None:
-        self.human = Human(Player)
-        self.ai = Ai(Player)
+        self.human = Human()
+        self.ai = Ai()
 
     def display_welcome(self):
         input("Welcome to Outter Space, where the ultimate battle of Rock, Paper, Scissor, Lizard, Spock!")
@@ -29,26 +29,21 @@ class OutterSpace:
         print()
         input("Rock crushes Scissors, Scissors cut paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock")
     
-    def player_selection(self):
+    def player_selection(self, user_input):
         single_player = "Single player"
-
         Multiplayer = "Multiplayer"
-
-        if user_input == Multiplayer:
-            pass
-        
+        user_input == single_player
+        user_input == Multiplayer
         user_input = input("Please select opponent: Single player or Multiplayer!")
 
     def run_game(self):
         self.display_welcome()
-        self.player_selection()
+        self.player_selection(self.player_selection)
         self.game_play()
         self.display_winner()
     
-    
-
     def game_play(self):
-        while 
+        pass
 
-    def display_winner(self, winner):
-        return winner()
+    def display_winner(self):
+        return Player()
